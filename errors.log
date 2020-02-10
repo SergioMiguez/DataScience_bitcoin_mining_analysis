@@ -1,0 +1,22 @@
+2020-02-08 20:43:13,442 - root - ERROR - Kedro's ipython session startup script failed:
+cannot import name 'data_engineering'
+Traceback (most recent call last):
+  File "/home/n0/theproject/.ipython/profile_default/startup/00-kedro-init.py", line 35, in reload_kedro
+    context = load_context(path, env=os.getenv(KEDRO_ENV_VAR))
+  File "/home/n0/test/lib/python3.6/site-packages/kedro/context/context.py", line 531, in load_context
+    context_class = load_obj(context_path)
+  File "/home/n0/test/lib/python3.6/site-packages/kedro/utils.py", line 53, in load_obj
+    module_obj = importlib.import_module(obj_path)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/n0/theproject/src/theproject/run.py", line 36, in <module>
+    from theproject.pipeline import create_pipelines
+  File "/home/n0/theproject/src/theproject/pipeline.py", line 33, in <module>
+    from theproject.pipelines import data_engineering as de
+ImportError: cannot import name 'data_engineering'

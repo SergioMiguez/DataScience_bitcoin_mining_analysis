@@ -1,0 +1,138 @@
+2020-02-09 01:46:37,225 - kedro.pipeline.node - ERROR - Node `preprocessing_energy: filter_energy([energy_prices]) -> [preprocessed_energy]` failed with error: 
+"['2008' '2009' '2010' '2011' '2012'] not found in axis"
+2020-02-09 01:47:11,030 - kedro.pipeline.node - ERROR - Node `preprocessing_energy: filter_energy([energy_prices]) -> [preprocessed_energy]` failed with error: 
+"['2008' '2009' '2010' '2011' '2012'] not found in axis"
+2020-02-09 01:50:13,117 - kedro.pipeline.node - ERROR - Node `preprocessing_energy: filter_energy([energy_prices]) -> [preprocessed_energy]` failed with error: 
+"['2008' '2009' '2010' '2011' '2012'] not found in axis"
+2020-02-09 01:50:30,981 - kedro.pipeline.node - ERROR - Node `preprocessing_energy: filter_energy([energy_prices]) -> [preprocessed_energy]` failed with error: 
+"['2008' '2009' '2010' '2011' '2012'] not found in axis"
+2020-02-09 01:51:12,477 - kedro.pipeline.node - ERROR - Node `preprocessing_energy: filter_energy([energy_prices]) -> [preprocessed_energy]` failed with error: 
+"['2008' '2009' '2010' '2011' '2012'] not found in axis"
+2020-02-09 01:51:29,410 - kedro.pipeline.node - ERROR - Node `preprocessing_energy: filter_energy([energy_prices]) -> [preprocessed_energy]` failed with error: 
+"['2008' '2009' '2010' '2011' '2012'] not found in axis"
+2020-02-09 01:53:08,173 - kedro.pipeline.node - ERROR - Node `preprocessing_energy: filter_energy([prices]) -> [preprocessed_energy]` failed with error: 
+"['2008' '2009' '2010' '2011' '2012'] not found in axis"
+2020-02-09 01:55:08,458 - kedro.pipeline.node - ERROR - Node `preprocessing_energy: filter_energy([prices]) -> [preprocessed_energy]` failed with error: 
+Invalid file path or buffer object type: <class 'pandas.core.frame.DataFrame'>
+2020-02-09 01:56:16,889 - kedro.pipeline.node - ERROR - Node `preprocessing_energy: filter_energy([prices]) -> [preprocessed_energy]` failed with error: 
+'DataFrame' object has no attribute 'read'
+2020-02-09 01:58:57,439 - kedro.pipeline.node - ERROR - Node `preprocessing_energy: filter_energy([prices]) -> [preprocessed_energy]` failed with error: 
+name 'fd' is not defined
+2020-02-09 01:59:20,668 - kedro.pipeline.node - ERROR - Node `preprocessing_energy: filter_energy([prices]) -> [preprocessed_energy]` failed with error: 
+'[2008 2009 2010 2011 2012] not found in axis'
+2020-02-09 02:00:13,079 - kedro.pipeline.node - ERROR - Node `preprocessing_energy: filter_energy([prices]) -> [preprocessed_energy]` failed with error: 
+'[2008] not found in axis'
+2020-02-09 02:02:42,077 - kedro.pipeline.node - ERROR - Node `preprocessing_energy: filter_energy([prices]) -> [preprocessed_energy]` failed with error: 
+'[2008] not found in axis'
+2020-02-09 02:02:55,325 - kedro.pipeline.node - ERROR - Node `preprocessing_energy: filter_energy([prices]) -> [preprocessed_energy]` failed with error: 
+'[2008] not found in axis'
+2020-02-09 02:03:28,082 - kedro.pipeline.node - ERROR - Node `preprocessing_energy: filter_energy([prices]) -> [preprocessed_energy]` failed with error: 
+"['2008'] not found in axis"
+2020-02-09 02:05:59,689 - kedro.pipeline.node - ERROR - Node `preprocessing_energy: filter_energy([prices]) -> [preprocessed_energy]` failed with error: 
+"['2008'] not found in axis"
+2020-02-09 02:06:12,799 - kedro.pipeline.node - ERROR - Node `preprocessing_energy: filter_energy([prices]) -> [preprocessed_energy]` failed with error: 
+"['2008'] not found in axis"
+2020-02-09 02:06:52,742 - kedro.pipeline.node - ERROR - Node `preprocessing_energy: filter_energy([prices]) -> [preprocessed_energy]` failed with error: 
+"['2008'] not found in axis"
+2020-02-09 02:07:24,441 - kedro.pipeline.node - ERROR - Node `preprocessing_energy: filter_energy([prices]) -> [preprocessed_energy]` failed with error: 
+"['2008'] not found in axis"
+2020-02-09 02:13:38,652 - kedro.pipeline.node - ERROR - Node `preprocessing_energy: filter_energy([prices]) -> [preprocessed_energy]` failed with error: 
+'[3] not found in axis'
+2020-02-09 02:15:43,519 - kedro.pipeline.node - ERROR - Node `preprocessing_energy: filter_energy([prices]) -> [preprocessed_energy]` failed with error: 
+"['(2008)'] not found in axis"
+2020-02-09 02:16:54,539 - kedro.pipeline.node - ERROR - Node `preprocessing_energy: filter_energy([prices]) -> [preprocessed_energy]` failed with error: 
+drop() got multiple values for argument 'axis'
+2020-02-09 02:17:09,101 - kedro.pipeline.node - ERROR - Node `preprocessing_energy: filter_energy([prices]) -> [preprocessed_energy]` failed with error: 
+No axis named 1 for object type <class 'pandas.core.frame.DataFrame'>
+2020-02-09 02:17:32,337 - kedro.pipeline.node - ERROR - Node `preprocessing_energy: filter_energy([prices]) -> [preprocessed_energy]` failed with error: 
+"['2009'] not found in axis"
+2020-02-09 03:24:16,134 - kedro.pipeline.node - ERROR - Node `processing_energy: process_energy([preprocessed_energy]) -> [processed_energy]` failed with error: 
+expr must be a string to be evaluated, <class 'bool'> given
+2020-02-09 03:25:08,781 - kedro.pipeline.node - ERROR - Node `processing_energy: process_energy([preprocessed_energy]) -> [processed_energy]` failed with error: 
+invalid syntax (<unknown>, line 1)
+2020-02-09 03:26:10,092 - kedro.pipeline.node - ERROR - Node `filtering_energy: filter_energy([energy_prices]) -> [preprocessed_energy]` failed with error: 
+'Month beginning'
+2020-02-09 03:36:38,050 - kedro.pipeline.node - ERROR - Node `processing_energy: process_energy([preprocessed_energy]) -> [processed_energy]` failed with error: 
+('EOF in multi-line statement', (2, 0))
+2020-02-09 03:37:57,362 - kedro.pipeline.node - ERROR - Node `processing_energy: process_energy([preprocessed_energy]) -> [processed_energy]` failed with error: 
+('EOF in multi-line statement', (2, 0))
+2020-02-09 03:46:52,010 - kedro.pipeline.node - ERROR - Node `processing_energy: process_energy([preprocessed_energy]) -> [processed_energy]` failed with error: 
+'IsNot' nodes are not implemented
+2020-02-09 03:48:15,064 - kedro.pipeline.node - ERROR - Node `processing_energy: process_energy([preprocessed_energy]) -> [processed_energy]` failed with error: 
+name 'hola' is not defined
+2020-02-09 04:14:33,779 - kedro.pipeline.node - ERROR - Node `formating_cryptocurrencies: format_cryptocurrencies([filtered_cryptocurrencies]) -> [formated_cyptocurrencies]` failed with error: 
+name 'split' is not defined
+2020-02-09 05:58:58,724 - kedro.pipeline.node - ERROR - Node `formating_total_bitcoins: format_totalbitcoins([total-bitcoins]) -> [formated_total_bitcoins]` failed with error: 
+list index out of range
+2020-02-09 06:37:49,818 - kedro.pipeline.node - ERROR - Node `calculating_profit: calculate_profit([formated_total_bitcoins,reversed_cryptocurrencies]) -> [calculated_profit]` failed with error: 
+name 'preprocess_cryptocurrencies' is not defined
+2020-02-09 06:38:18,733 - kedro.pipeline.node - ERROR - Node `calculating_profit: calculate_profit([formated_total_bitcoins,reversed_cryptocurrencies]) -> [calculated_profit]` failed with error: 
+'value'
+2020-02-09 06:39:12,170 - kedro.pipeline.node - ERROR - Node `calculating_profit: calculate_profit([formated_total_bitcoins,reversed_cryptocurrencies]) -> [calculated_profit]` failed with error: 
+can't multiply sequence by non-int of type 'float'
+2020-02-09 06:45:42,178 - kedro.pipeline.node - ERROR - Node `calculating_profit: calculate_profit([new_total_bitcoins,reversed_cryptocurrencies]) -> [calculated_profit]` failed with error: 
+can't multiply sequence by non-int of type 'float'
+2020-02-09 06:46:32,998 - kedro.pipeline.node - ERROR - Node `calculating_profit: calculate_profit([new_total_bitcoins,reversed_cryptocurrencies]) -> [calculated_profit]` failed with error: 
+'Date'
+2020-02-09 06:58:55,345 - kedro.pipeline.node - ERROR - Node `calculating_profit: calculate_profit([new_total_bitcoins,reversed_cryptocurrencies]) -> [calculated_profit]` failed with error: 
+'Series' object has no attribute 'substact'
+2020-02-09 06:59:10,242 - kedro.pipeline.node - ERROR - Node `calculating_profit: calculate_profit([new_total_bitcoins,reversed_cryptocurrencies]) -> [calculated_profit]` failed with error: 
+'Series' object has no attribute 'substract'
+2020-02-09 06:59:24,787 - kedro.pipeline.node - ERROR - Node `calculating_profit: calculate_profit([new_total_bitcoins,reversed_cryptocurrencies]) -> [calculated_profit]` failed with error: 
+unsupported operand type(s) for -: 'str' and 'int'
+2020-02-09 07:00:25,325 - kedro.pipeline.node - ERROR - Node `calculating_profit: calculate_profit([new_total_bitcoins,reversed_cryptocurrencies]) -> [calculated_profit]` failed with error: 
+invalid literal for int() with base 10: '314.25'
+2020-02-09 07:01:06,788 - kedro.pipeline.node - ERROR - Node `calculating_profit: calculate_profit([new_total_bitcoins,reversed_cryptocurrencies]) -> [calculated_profit]` failed with error: 
+invalid literal for int() with base 10: '314.25'
+2020-02-09 07:04:42,921 - kedro.pipeline.node - ERROR - Node `calculating_profit: calculate_profit([new_total_bitcoins,reversed_cryptocurrencies]) -> [calculated_profit]` failed with error: 
+must be real number, not str
+2020-02-09 07:05:13,459 - kedro.pipeline.node - ERROR - Node `calculating_profit: calculate_profit([new_total_bitcoins,reversed_cryptocurrencies]) -> [calculated_profit]` failed with error: 
+must be real number, not str
+2020-02-09 07:05:35,021 - kedro.pipeline.node - ERROR - Node `calculating_profit: calculate_profit([new_total_bitcoins,reversed_cryptocurrencies]) -> [calculated_profit]` failed with error: 
+must be real number, not str
+2020-02-09 07:06:27,544 - kedro.pipeline.node - ERROR - Node `calculating_profit: calculate_profit([new_total_bitcoins,reversed_cryptocurrencies]) -> [calculated_profit]` failed with error: 
+could not convert string to float: '1,222.50'
+2020-02-09 07:07:57,626 - kedro.pipeline.node - ERROR - Node `calculating_profit: calculate_profit([new_total_bitcoins,reversed_cryptocurrencies]) -> [calculated_profit]` failed with error: 
+must be real number, not str
+2020-02-09 07:08:13,451 - kedro.pipeline.node - ERROR - Node `calculating_profit: calculate_profit([new_total_bitcoins,reversed_cryptocurrencies]) -> [calculated_profit]` failed with error: 
+must be real number, not str
+2020-02-09 07:09:20,529 - kedro.pipeline.node - ERROR - Node `calculating_profit: calculate_profit([new_total_bitcoins,reversed_cryptocurrencies]) -> [calculated_profit]` failed with error: 
+could not convert string to float: '1,222.50'
+2020-02-09 07:16:48,144 - kedro.pipeline.node - ERROR - Node `calculating_profit: calculate_profit([new_total_bitcoins,reversed_cryptocurrencies]) -> [calculated_profit]` failed with error: 
+could not convert string to float: '1,222.50'
+2020-02-09 07:17:55,878 - kedro.pipeline.node - ERROR - Node `calculating_profit: calculate_profit([new_total_bitcoins,reversed_cryptocurrencies]) -> [calculated_profit]` failed with error: 
+invalid literal for int() with base 10: '314.25'
+2020-02-09 07:18:51,746 - kedro.pipeline.node - ERROR - Node `calculating_profit: calculate_profit([new_total_bitcoins,reversed_cryptocurrencies]) -> [calculated_profit]` failed with error: 
+invalid literal for int() with base 10: '314.25'
+2020-02-09 07:22:07,431 - kedro.pipeline.node - ERROR - Node `calculating_profit: calculate_profit([new_total_bitcoins,reversed_cryptocurrencies]) -> [calculated_profit]` failed with error: 
+could not convert string to float: '1,222.50'
+2020-02-09 07:25:38,934 - kedro.pipeline.node - ERROR - Node `transforming_to_float: modifyStringtofloat([formated_total_bitcoins]) -> [new_total_bitcoins]` failed with error: 
+'float' object has no attribute 'replace'
+2020-02-09 07:26:49,898 - kedro.pipeline.node - ERROR - Node `transforming_to_float: modifyStringtofloat([formated_total_bitcoins]) -> [new_total_bitcoins]` failed with error: 
+'float' object has no attribute 'replace'
+2020-02-09 07:28:33,394 - kedro.pipeline.node - ERROR - Node `transforming_to_float: modifyStringtofloat([formated_total_bitcoins]) -> [new_total_bitcoins]` failed with error: 
+'Series' object has no attribute 'stringtofloat'
+2020-02-09 07:29:14,434 - kedro.pipeline.node - ERROR - Node `calculating_profit: calculate_profit([new_total_bitcoins,reversed_cryptocurrencies]) -> [calculated_profit]` failed with error: 
+'int' object is not iterable
+2020-02-09 07:31:07,526 - kedro.pipeline.node - ERROR - Node `calculating_profit: calculate_profit([new_total_bitcoins,reversed_cryptocurrencies]) -> [calculated_profit]` failed with error: 
+'int' object is not iterable
+2020-02-09 07:55:48,196 - kedro.pipeline.node - ERROR - Node `transforming_to_float: modifyStringtofloat([formated_total_bitcoins]) -> [new_total_bitcoins]` failed with error: 
+name 'stringtofloat' is not defined
+2020-02-09 07:56:34,705 - kedro.pipeline.node - ERROR - Node `modify_to_int: modifyStringto([reversed_cryptocurrencies]) -> [new_cryptocurrencies]` failed with error: 
+name 'stringtoint' is not defined
+2020-02-09 08:10:04,101 - kedro.pipeline.node - ERROR - Node `profit_calculation: calculate_profit([new_cryptocurrencies,new_total_bitcoins]) -> [profit]` failed with error: 
+'DataFrame' object has no attribute 'value'
+2020-02-09 08:11:27,685 - kedro.pipeline.node - ERROR - Node `profit_calculation: calculate_profit([new_cryptocurrencies,new_total_bitcoins]) -> [profit]` failed with error: 
+'DataFrame' object has no attribute 'value'
+2020-02-09 08:16:36,798 - kedro.pipeline.node - ERROR - Node `profit_calculation: calculate_profit([new_cryptocurrencies,new_total_bitcoins]) -> [profit]` failed with error: 
+matrices are not aligned
+2020-02-09 08:18:11,253 - kedro.pipeline.node - ERROR - Node `profit_calculation: calculate_profit([new_cryptocurrencies,new_total_bitcoins]) -> [profit]` failed with error: 
+f() got an unexpected keyword argument 'fixed'
+2020-02-09 09:44:52,416 - kedro.pipeline.node - ERROR - Node `plot_graph: graph([benefit]) -> None` failed with error: 
+name 'boxplot' is not defined
+2020-02-09 09:45:05,624 - kedro.pipeline.node - ERROR - Node `plot_graph: graph([benefit]) -> None` failed with error: 
+module 'matplotlib.pyplot' has no attribute 'dox'
+2020-02-09 09:50:58,872 - kedro.pipeline.node - ERROR - Node `plot_graph: graph([benefit]) -> None` failed with error: 
+module 'matplotlib.pyplot' has no attribute 'dox'
+2020-02-09 09:56:26,432 - kedro.pipeline.node - ERROR - Node `plot_graph2: graph2([co2_emission]) -> None` failed with error: 
+name 'benefit' is not defined

@@ -1,0 +1,93 @@
+# Here you can define all your data sets by using simple YAML syntax.
+#
+# Documentation for this file format can be found in the kedro docs under `Accessing data`
+# You can access the kedro docs by running `kedro docs`
+
+cryptocurrency: 
+  type: CSVLocalDataSet
+  filepath: data/01_raw/cryptocurrency.csv
+
+energy_prices: 
+  type: CSVLocalDataSet
+  filepath: data/01_raw/energy_prices.csv
+
+annual_energy_bitcoin:
+  type: CSVLocalDataSet
+  filepath: data/01_raw/annual_energy_bitcoin.csv
+
+
+preprocessed_cryptocurrencies:
+  type: CSVLocalDataSet
+  filepath: data/02_intermediate/preprocessed_cryptocurrencies.csv
+
+filtered_cryptocurrencies:
+  type: CSVLocalDataSet
+  filepath: data/02_intermediate/filtered_cryptocurrencies.csv
+
+formated_cyptocurrencies:
+  type: CSVLocalDataSet
+  filepath: data/02_intermediate/formated_cyptocurrencies.csv
+  
+validyear_cryptocurrencies:
+  type: CSVLocalDataSet
+  filepath: data/02_intermediate/validyear_cryptocurrencies.csv
+
+reversed_cryptocurrencies:
+  type: CSVLocalDataSet
+  filepath: data/02_intermediate/reversed_cryptocurrencies.csv
+
+
+processed_energy_bitcoin_consumption:
+  type: CSVLocalDataSet
+  filepath: data/02_intermediate/filtered_energy_bitcoin_consumption.csv
+
+
+preprocessed_energy:
+  type: CSVLocalDataSet
+  filepath: data/02_intermediate/preprocessed_energy.csv
+
+processed_energy:
+  type: CSVLocalDataSet
+  filepath: data/02_intermediate/processed_energy.csv
+
+
+total-bitcoins:
+  type: CSVLocalDataSet
+  filepath: data/01_raw/total-bitcoins.csv
+formated_total_bitcoins:
+  type: CSVLocalDataSet
+  filepath: data/02_intermediate/formated_total_bitcoins.csv
+
+calculated_profit:
+  type: CSVLocalDataSet
+  filepath: data/02_intermediate/calculated_profit.csv
+new_total_bitcoins:
+  type: CSVLocalDataSet
+  filepath: data/02_intermediate/new_total_bitcoins.csv
+new_cryptocurrencies:
+  type: CSVLocalDataSet
+  filepath: data/02_intermediate/new_cryptocurrencies.csv
+profit:
+  type: CSVLocalDataSet
+  filepath: data/02_intermediate/profit.csv
+
+new_process_energy:
+  type: CSVLocalDataSet
+  filepath: data/02_intermediate/new_process_energy.csv
+
+
+benefit:
+  type: CSVLocalDataSet
+  filepath: data/02_intermediate/benefit.csv
+co2_emission:
+  type: CSVLocalDataSet
+  filepath: data/02_intermediate/co2_emission.csv
+
+
+graph:
+  type: kedro.contrib.io.matplotlib.MatplotlibWriter
+  filepath: data/02_intermediate/graph.png
+
+graph2:
+  type: kedro.contrib.io.matplotlib.MatplotlibWriter
+  filepath: data/02_intermediate/graph.png
